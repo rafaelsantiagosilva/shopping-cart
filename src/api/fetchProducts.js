@@ -1,4 +1,4 @@
-export default async function fetchProdutos(query) {
+export default async function fetchProducts(query) {
      const url = `https://api.mercadolibre.com/sites/MLB/search?q=${query}`;
      
      const response = await fetch(url);
